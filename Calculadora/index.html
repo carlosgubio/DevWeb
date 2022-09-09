@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Calculadora</title>
+    <script src="calculadora.js"></script>
+</head>
+<body>
+    <div calculadora="calculadora-inicial" id="calc" class="calculadora">
+        <label for="num1">Num1:</label><br />
+        <input id="num1" placeholder="1º numero" class="entrada" /><br />
+        <label for="num2">Num2:</label><br />
+        <input id="num2" placeholder="2º numero" class="entrada" /><br />
+        <input type="button" onclick="cadastro()" value="+" />
+        <input type="button" onclick="cadastro()" value="-" />
+        <input type="button" onclick="cadastro()" value="/" />
+        <input type="button" onclick="cadastro()" value="x" /><br />
+    </div>
+    <div id="dadosSalvos"> 
+        <input id="numSalvo" disabled />
+    </div>
+</body>
+</html>
