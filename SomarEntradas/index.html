@@ -3,16 +3,15 @@
 <head>
     <meta charset="utf-8" />
     <title>SomarEntradas</title>
+    <script src="index.js"></script>
     </head>
 <body>        
     <div dado="entrada-inicial" id="ent" class="entradas">
-        <label>Entradas:</label><br>
-        
-        <input class="numeral" placeholder="Numeral" class="entrada" value="" />
-        <input type="button" onclick="adicionar()" value="+ 1" />
-        
-    
+        <label>Entradas:</label><br>        
+        <input placeholder="Insira um valor" class="entrada" value="" />
+        <input type="button" onclick="mais()" value="+1" /><br> 
+    </div>
+    <div id = "dadosSalvos">
     </div>
 </body>
-<script src="index.js"></script>
 </html>

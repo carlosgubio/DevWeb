@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>RegistrarEMostrar</title>
+    </head>
+<body>        
+    <div name="formulario-inicial" id="form" class="formularios">
+        <label>Cadastro:</label><br>
+        <Label>Nome:</Label>
+        <input id="nome" placeholder="Nome" class="entrada" value="" /><br>
+        <label>Idade:</label>
+        <input id="idade" placeholder="Idade" class="entrada" /><br>
+        <label>Nacionalidade:</label>
+        <input id="nacionalidade" placeholder="Nacionalidade" class="entrada" /><br>
+        <label>Nome do Pai:</label>
+        <input id="nomePai" placeholder="Nome do Pai" class="entrada" /><br>
+        <label>Nome da Mãe:</label>
+        <input id="nomeMae" placeholder="Nome da Mãe" class="entrada" /><br>
+        <button id = "salvar">salvar</button><br><br>
+    </div>
+    <div id="divtabela">
+        <table border="1" id = 'tabela'>
+            <thead>
+                <tr>
+                    <th>Nome</th>
+                    <th>Idade</th>
+                    <th>Nacionalidade</th>
+                    <th>Nome do Pai</th>
+                    <th>Nome da Mãe</th>
+                </tr>
+            </thead>
+            <tbody id = 'tabelaBody'>
+            </tbody>
+        </table>
+    </div>
+</body>
+<script src="index.js"></script>
+</html>
