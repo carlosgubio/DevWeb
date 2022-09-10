@@ -39,24 +39,24 @@ function adicionar() {
 
     var tabela = document.querySelector('#tabelaBody');
 
-    var th1 = document.createElement("th");
-    var th2 = document.createElement("th");
-    var th3 = document.createElement("th");
-    var th4 = document.createElement("th");
-    var th5 = document.createElement("th");
+    var td1 = document.createElement("td");
+    var td2 = document.createElement("td");
+    var td3 = document.createElement("td");
+    var td4 = document.createElement("td");
+    var td5 = document.createElement("td");
 
-    th1.innerHTML = pessoa.nome;
-    th2.innerHTML = pessoa.idade;
-    th3.innerHTML = pessoa.nacionalidade;
-    th4.innerHTML = pessoa.nomePai;
-    th5.innerHTML = pessoa.nomeMae;
+    td1.innerHTML = pessoa.nome;
+    td2.innerHTML = pessoa.idade;
+    td3.innerHTML = pessoa.nacionalidade;
+    td4.innerHTML = pessoa.nomePai;
+    td5.innerHTML = pessoa.nomeMae;
 
     var tr = document.createElement("tr");
-    tr.appendChild(th1);
-    tr.appendChild(th2);
-    tr.appendChild(th3);
-    tr.appendChild(th4);
-    tr.appendChild(th5);
+    tr.appendChild(td1);
+    tr.appendChild(td2);
+    tr.appendChild(td3);
+    tr.appendChild(td4);
+    tr.appendChild(td5);
     tabela.appendChild(tr);
 }
 btn.addEventListener("click",adicionar);
